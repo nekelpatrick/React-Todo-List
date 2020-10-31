@@ -43,8 +43,10 @@ select {
 select {
   color: #f25ca2;
   font-family: "Poppins", sans-serif;
+  font-size: 15px;
   cursor: pointer;
   width: 12rem;
+  background-color: rgb(177, 203, 238);
 }
 /* Arrow */
 .select::after {
@@ -56,4 +58,7 @@ select {
   background: #f25ca2;
   cursor: pointer;
   pointer-events: none;
+}
+.filter-todo {
+  padding: 1rem;
 }
