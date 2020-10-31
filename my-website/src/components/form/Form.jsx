@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Styles.css";
+
 const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
   const inputTextHandler = (e) => {
     console.log(e.target.value);
