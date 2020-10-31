@@ -1,0 +1,24 @@
+@media only screen and (max-width: 760px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todo-input {
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 1%;
+  }
+  .todo-button {
+    margin: 10px;
+    width: 70px;
+    border-radius: 10%;
+    background: rgb(255, 255, 255);
+  }
+  .todo-list {
+    max-width: 65%;
+    width: 60%;
+  }
+}
